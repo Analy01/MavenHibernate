@@ -31,6 +31,8 @@
       <version>4.3.5.Final</version>
     </dependency>
     
+    
+    
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -58,4 +60,7 @@
             <url>file:${project.basedir}/lib</url>
         </repository>
     </repositories>
+    <properties>
+        <netbeans.hint.deploy.server>Tomcat</netbeans.hint.deploy.server>
+    </properties>
 </project>
